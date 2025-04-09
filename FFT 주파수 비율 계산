@@ -100,7 +100,7 @@ def fft_analysis(input,eye):
       if freq_ratio < min:
         min = freq_ratio
     
-    print(f"{eye}의 평균 : {np.mean(average)}, 분산 : {np.var(average)}, 최대값 : {max}, 최소값 : {min}")
+    print(f"{eye}의 평균 : {np.mean(average)}, 분산 : {np.var(average)}")
 
 
 fft_analysis(input_forder_nor, eye_nor)
